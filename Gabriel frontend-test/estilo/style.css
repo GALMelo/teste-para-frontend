@@ -1,0 +1,387 @@
+body{
+    font-family: 'Montserrat' !important;
+}
+
+/*header*/
+
+header{
+	background: #3573ba !important;
+	height: 55px;
+}
+
+.navbar-nav {
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	list-style-type: none;
+
+}
+
+.navbar-nav > li{
+	margin: 0 10px;
+	padding: 0px 10px;
+
+}
+
+.navbar {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-link{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+}
+/*Section banner,search*/
+.jumbotron{
+	background-image: url('../img/banner/banner.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	height: 315px;
+	width: 100%;
+}
+#search{
+	position: relative;
+	width: 75%;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.5);
+
+}
+.container {
+	width: 100%;
+}
+
+
+
+img.img-section{
+	width: 150px;
+	margin: 0;
+	padding: 0;
+
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+h1.titulo-site {
+	position: relative;
+
+	text-align: center;
+	font-size: 48px;
+	color: white;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 20px;
+}
+
+.container > .input-group-append {
+	position: relative;
+	left: 110px;
+}
+.input-group-append > .btn {
+	background-image: url('../img/banner/search.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #FFF;
+	position: relative;
+	width: 20px;
+	height: 20px;
+}
+
+.bnt-search{
+	background-image: url('../img/banner/search.svg');
+	position: absolute;
+	width: 30px;
+	height:30px;
+	top: 0;
+	right: 0;
+}
+.bnt-search:focus, #search {
+	outline-style: none;
+
+}
+
+
+/*Section Servico */
+.servico-box-icone{
+	height: 90px;
+	width: 30%;
+	padding-top: 10px;
+	margin-left: 40px;
+	margin-bottom: -30px;
+
+}
+.servico-box1{
+	margin-top: 400px;
+	margin-left: 5px;
+	float: left;
+  	
+}
+.servico-box1:hover{
+	border: 3px solid #3573ba;
+}
+.servico-box2{
+	margin-top: 10px;
+	margin-left: 5px;
+	float: left;	
+}
+.servico-box2:hover{
+	border: 3px solid #3573ba;
+}
+.servico-box3{
+	margin-left: 250px
+}
+.titulo{
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 10px;
+
+}
+
+
+.border{
+	border-top: 3px solid #3573ba;
+	width: 100px;
+	margin-left: 10px;
+}
+.subtitulo{
+	font-weight: bold;
+	margin-left: 25px;
+}
+.portal{
+	font-weight: bold;
+	color: black;
+	margin-left: 15px
+
+}
+
+/*organização in box*/
+#planejamento{
+	margin-top: 5px;
+}
+
+#receita, #obras{
+	margin-top: 10px;
+	margin-left: 35px;
+}
+
+#despesa, #glossario{
+	margin-top: 10px;
+	margin-left: 30px;
+}
+
+#servidores, #licitacoes{
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+#bolsa{
+	margin-top: 10px;
+	margin-left: 15px;
+}
+#contrato{
+	margin-top: 8px;
+	margin-left: 25px;
+}
+#convenio{
+	margin-top: 10px;
+	margin-left: 22px;
+}
+#demonstrativo{
+	margin-top: 10px;
+}
+#consulta{
+	margin-top: 5px;
+	margin-left: 25px;
+}
+#legislacao{
+	margin-left: 25px;
+}
+#perguntas{
+	margin-top: 3px;
+	margin-left: 20px;
+}
+#portalsub{
+	position: relative;
+	left: 27%;
+
+}
+.border-box-especial{
+	border-top: 3px solid black;
+	width: 100px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.border-box{
+	border-top: 3px solid #3573ba;
+	width: 100px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+#borda{
+	width: 120px ;
+	height: 120px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/*Section sites*/
+.titulo-sites{
+	text-align: center;
+}
+.border-titulo{
+	margin-top: 40px;
+	width: 80%;
+	margin-left: 125px;
+	border-top: 1px solid #D3D3D3;
+}
+.sites-box-img img{
+	height: 100px; 
+	width: 230px;
+
+	border-radius: 10px 10px 0px 0px;	
+}
+#borda2{
+	height: 135px;
+	width: 230px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.sites-box{
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 70px
+}
+
+.conteudo-geral{
+	margin-top: 40px;
+	margin-left: 170px
+}
+.borda-sites{
+	margin-top: 3px;
+	border-top: 2px solid #3573BA;
+}
+
+/* Organização dentro da box */
+.sites-box-servicos{
+	margin-top: -10px;
+	margin-left: 40px
+}
+.sites-box-ouvidoria{
+	margin-top: -10px;
+	margin-left: 69px
+}
+.sites-box-informa{
+	margin-top: -10px;
+	margin-left: 50px
+}
+.sites-box-portal{
+	margin-top: -10px;
+	margin-left: 40px
+}
+
+/*Section contato*/
+
+.contato{
+	display: inline-block;
+	text-align: center;
+	
+}
+#contato{
+	display: inline-block;
+	margin-bottom: 100px;
+	position: relative;
+	top: 50%;
+	left: 16%;
+		
+}
+
+.social-networks{
+	display: inline-block;
+	position: relative;
+	left: 10%;
+}
+
+.social-networks h4{
+	display: inline-block;
+	position: relative;
+	left: 20px;
+}
+.social-networks ul{
+	list-style-type: none;
+}
+.social-networks img{
+	width: 45px; 
+	height: 45px;
+}
+.endereco{
+	display: inline-block;
+	margin-bottom: 200px;
+	position: relative;
+	top: 80px;
+	left: 31.5%;
+	text-align: center;
+	
+}
+.endereco h4{
+	display: inline-block;
+	position: relative;
+	left: 
+}
+.endereco iframe{
+	width: 110%;
+	height: 150px;
+	display: inline-block;
+	position: relative;
+
+}
+.avaliacao{
+	display: inline-block;
+	width: 430px;
+	position: relative;
+	left: 33%;
+	top: 10px;
+
+	
+}
+
+.avaliacao h4,{
+	font-size: 20px;
+}
+.avaliacao p{
+	font-size: 12px
+}
+
+
+/*Footer*/
+
+footer{
+	position: fixed;
+	background: #3573ba !important;
+	color: #FFF;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	border: none;
+	bottom: 0;
+	width: 100%;
+	
+}
+
+.footer-text{
+	text-align: right;
+}
+
+#footer-img {
+	width: 100px;
+	position: absolute;
+	left: 1%;
+	border: none;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
